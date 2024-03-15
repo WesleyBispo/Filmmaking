@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.favoritos-link {
+  @apply bg-slate-200 px-2 py-1 text-black text-base rounded hover:opacity-90
+}
+
+.h-screen-header {
+  height: calc(100vh - 64px);
+}
