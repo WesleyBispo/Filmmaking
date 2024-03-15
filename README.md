@@ -1,30 +1,25 @@
-# React + TypeScript + Vite
+# Meu Projeto de Estudos em React com TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu projeto de estudos em React! Este projeto foi desenvolvido com o objetivo de aprimorar minhas habilidades em React, TypeScript e integração de APIs.
 
-Currently, two official plugins are available:
+## Recursos Principais
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React e TypeScript:** Utilizei o React com TypeScript para garantir um código mais seguro e legível, aproveitando os benefícios do sistema de tipos estáticos.
+- **React Router DOM:** Para a navegação entre as diferentes páginas da aplicação, adotei o React Router DOM, permitindo uma experiência de usuário fluida e intuitiva.
+- **API da The Movie Database (TMDb):** Implementei a integração com a API da The Movie Database, utilizando-a como fonte de dados para o projeto. Isso incluiu a obtenção de informações sobre filmes, séries e outros conteúdos disponíveis na plataforma.
+- **CRUD Básico:** Explorei conceitos de criação, leitura, atualização e exclusão (CRUD) de dados, aplicando-os no contexto dos recursos fornecidos pela API TMDb.
+- **React Query:** Utilizei a biblioteca React Query, da Tanstack, para gerenciar as consultas e mutações de dados, explorando suas funcionalidades e benefícios em relação a outras soluções.
 
-## Expanding the ESLint configuration
+## Como Usar
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone este repositório: `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
+2. Instale as dependências: `npm install`
+3. Neste projeto usei para desenvolvimento `node.21.0`
+3. Inicie o servidor de desenvolvimento: `npm run dev`
+4. Abra o navegador e acesse `http://localhost:3000`
 
-- Configure the top-level `parserOptions` property like this:
+## Contribuição
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para reportar bugs ou sugerir melhorias. Se deseja contribuir com código, por favor, abra um pull request e descreva suas alterações.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
